@@ -1,0 +1,8 @@
+Temperature = float(input("enter a temperature in F"))
+if   60 <= Temperature < 80 :
+   print ("hot")
+if Temperature <= 60:
+    print ("Warning: Too Cold")  
+if Temperature >= 80:
+    print ("Warning: To hot ")  
+
