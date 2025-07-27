@@ -1,0 +1,7 @@
+Name ="Alex"
+age = "14"
+print("Hi my name is "  +  Name)
+print(f"I am " + age + " years old")
+print("I like Python " + "yes")
+
+
