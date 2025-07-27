@@ -1,0 +1,7 @@
+gpa = float(input("Enter your GPA: "))
+activities = input("Do you participate in extracurricular activities? (yes/no): ").lower()
+if gpa>=3.5 and  activities:
+   print  ("eligible")
+else:
+    print ("not  eligible")
+
