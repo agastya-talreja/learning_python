@@ -1,0 +1,5 @@
+name = " Agastya "
+
+print("i am" + name) 
+print("i like chicken")
+print ("i have a dog she is 5 years old her name is Maya  ")
