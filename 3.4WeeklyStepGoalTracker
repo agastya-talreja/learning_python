@@ -1,0 +1,25 @@
+# Start with zero total steps and zero days meeting the goal
+total_steps = 0
+days_met_goal = 0
+goal= 8000
+
+# Repeat this loop once for each day of the week
+for day in range(1, 8):
+    # Ask the user how many steps they took today
+    steps = int(input(f"Enter steps for Day {day}: "))
+   
+    # Add the steps taken by the user to your total
+    # Hint 1: use compound operators
+    total_steps = total_steps + steps
+
+    # Check if today's steps meet the goal
+    # Hint 2: use if statements
+    # If yes, add 1 to the days_met_goal
+    if steps > goal:
+        days_met_goal = days_met_goal +1
+
+# After the loop ends, print the total steps
+# and how many days you met your goal
+# Hint 3: use f-strings so you can mix numbers with strings in printing
+print (f"total steps is {total_steps} days goal met = {days_met_goal}")
+
