@@ -1,0 +1,12 @@
+first = " Hovatar "
+last = " Elementary "
+print (f"my school is  {first} {last}" )
+
+age = 10 
+print  (f"my age is  {age}") 
+hight = 4.42 
+print (f"i am  {hight} feet tall")
+like_Python = True
+anya_likes_me = False
+print (f"agastya likes Python {like_Python}")
+print (f"does my sister like me {anya_likes_me}")
