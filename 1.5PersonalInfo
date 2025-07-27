@@ -1,0 +1,23 @@
+Boolean= True #this has 2 things true or false 
+
+result = 5 + 3.14 #this is a float and a int a flost is with ddecimals int is with only whole numbers 
+print(type(result))
+a ="dogs"
+print (f"i like {a}")# this is a string it is to say or to do problems and to make stuff
+if Boolean:
+    print("My sister does not like me")
+else:
+    print("My sister likes me")
+#print (f"my sister likes me {Boolean}")
+b="spiderman is my favorite hero"
+print (f"{b}")# f string 
+C = "ninjago is my favorite hero"
+print (C)# normal string 
+Q= 8 
+print (f"i have {Q} more years until i am 18")
+feet= 4
+inch= 5
+height= 12 * feet+inch
+print (f"my height is {height} inches")
+ok = " ok " * 97		# Result: "ok ok ok ok ok ok okoko kok ok ok okok ...
+print (f"{ok}")
