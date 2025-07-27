@@ -1,0 +1,27 @@
+first=6
+second=7
+product=first*second
+print(f"product of {first} and {second} is {product}")
+
+sum=first+second
+print(f"sum of {first} and {second} is {sum}")
+
+Quotient=first/second
+print(f"Quotient of {first} and {second} is {Quotient}")
+
+diffrence=first-second
+print(f"diffrence of {second} and {first} is {diffrence}")
+cool=2 
+rool=3
+exponit = cool**rool
+print(f"the exponit of {cool} to the power of {rool} is {exponit}")  
+
+l=4
+q=3
+m=29
+k=12
+answer=q*l-(m+k)*q
+print(f"answer as per pemdas is {answer}")
+
+
+
